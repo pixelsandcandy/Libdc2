@@ -26,9 +26,10 @@ void ofApp::setup() {
     //camera.resetBus();
     camera.set1394b(true);
     //camera.setSize(raw_width,raw_height);
-    //camera.setSize(1600,1200);
+    
     
     camera.setFormat7(true);
+    camera.setSize(1600,1200);
     //camera.setSize(raw_width,raw_height);
     
     camera.setBayerMode(DC1394_COLOR_FILTER_RGGB, DC1394_BAYER_METHOD_NEAREST);
