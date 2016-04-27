@@ -34,4 +34,12 @@ public:
     ofImage bayer, rgb;
     int bayerType;
     string bayerName;
+    
+    int width;
+    int height;
+    int raw_width;
+    int raw_height;
+    int bufX, bufY, bufMode;
+    
+    ofImage buffer, cvBuffer;
 };

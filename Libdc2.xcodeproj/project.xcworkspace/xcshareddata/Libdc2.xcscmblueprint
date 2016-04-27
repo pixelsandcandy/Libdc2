@@ -1,22 +1,24 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F5C771B2F056521C98F4C8BAF5DDD720AD00807B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF70904D2CE289C1933F9BD71F841D576ED85E4C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : 0,
+    "FF70904D2CE289C1933F9BD71F841D576ED85E4C" : 0,
     "033119C972DFE59718092B5C52DB7E814DF74ABB" : 0,
-    "F5C771B2F056521C98F4C8BAF5DDD720AD00807B" : 0
+    "F5C771B2F056521C98F4C8BAF5DDD720AD00807B" : 0,
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "219DB6B2-7071-47CC-992C-6DADC583A8D8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : "addons\/ofxCv\/",
-    "033119C972DFE59718092B5C52DB7E814DF74ABB" : "addons\/ofxLibdc\/",
-    "F5C771B2F056521C98F4C8BAF5DDD720AD00807B" : "ofx-projects-0090\/"
+    "FF70904D2CE289C1933F9BD71F841D576ED85E4C" : "Libdc2\/",
+    "033119C972DFE59718092B5C52DB7E814DF74ABB" : "..\/..\/addons\/ofxLibdc",
+    "F5C771B2F056521C98F4C8BAF5DDD720AD00807B" : "..",
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : "..\/..\/addons\/ofxCv"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Libdc2",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "projects\/Libdc2\/Libdc2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Libdc2.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/robotconscience\/ofxLibdc.git",
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pixelsandcandy\/ofx-projects-0090.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5C771B2F056521C98F4C8BAF5DDD720AD00807B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pixelsandcandy\/Libdc2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF70904D2CE289C1933F9BD71F841D576ED85E4C"
     }
   ]
 }
