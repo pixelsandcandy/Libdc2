@@ -10,6 +10,7 @@ void ofApp::setup() {
     
     // setup() will pick the first camera. Or if there are multiple cameras you
     // can use the number, or the GUID of the camera.
+    
     //camera.resetBus();
     /*width = 1600;
     height = 1200;*/
@@ -25,11 +26,14 @@ void ofApp::setup() {
     //camera.resetBus();
     camera.set1394b(true);
     //camera.setSize(raw_width,raw_height);
-    camera.setSize(1600,1200);
-    //camera.setFormat7(true);
-    //camera.setSize(640,480);
+    //camera.setSize(1600,1200);
+    
+    camera.setFormat7(true);
+    //camera.setSize(raw_width,raw_height);
+    
     camera.setBayerMode(DC1394_COLOR_FILTER_RGGB, DC1394_BAYER_METHOD_NEAREST);
-    camera.setImageType(OF_IMAGE_COLOR);
+    //camera.setImageType(OF_IMAGE_COLOR);
+    camera.setImageType(OF_IMAGE_GRAYSCALE);
     camera.setup();
     
     
@@ -207,6 +211,7 @@ void ofApp::update() {
         //rgb.update();*/
         
         cvBuffer.update();
+        return;
         
         //bayer.setFromPixels(cvBuffer.getPixels());
         
@@ -310,8 +315,8 @@ void ofApp::draw() {
     cvBuffer.draw(0,0);
     //processed.draw(640,0);
     //rgb.draw(640,0);
-    colorImage.draw(640,0, 640,480);
-    processed.draw(640,480,640,480);
+    //colorImage.draw(640,0, 640,480);
+    //processed.draw(640,480,640,480);
     ofDrawBitmapStringHighlight("use the up/down keys: " + bayerName, 10, 20);
     ofDrawBitmapStringHighlight("use the left/right keys: " + ofToString(bufX) + ", " + ofToString(bufY), 10, 80);
 }
